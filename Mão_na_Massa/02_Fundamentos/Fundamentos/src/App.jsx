@@ -7,6 +7,11 @@ import './App.css'
 import FirstComponent from './components/FistComponent';
 // 02ª template expression
 import TemplateExpression from './components/TemplateExpression'
+// 3ª hierarquia de componentes
+import MyComponents from './components/MyComponents'
+// 04ª Eventos
+import Events from './components/Events'
+
 function App() {
   return <div>
    <h1>Fundamentos do React</h1>
@@ -18,7 +23,8 @@ function App() {
    linhas ...
    */}
    <TemplateExpression/>
-   
+   <MyComponents/>
+   <Events/>
   </div>
  
 }
