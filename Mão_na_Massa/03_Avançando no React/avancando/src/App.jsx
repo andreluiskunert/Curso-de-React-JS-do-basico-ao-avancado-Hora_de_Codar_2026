@@ -7,6 +7,11 @@ import './App.css'
 import night from "./assets/night.jpg"
 // 3ª useState
 import Data from './components/Data'
+
+// 4ª Renderização de lista
+import ListRender from './components/ListRender';
+// 5ª
+import ListRenderKey from './components/ListRenderKey';
 function App() {
   
 
@@ -26,6 +31,11 @@ function App() {
           <img src={night} alt="De noite"  />
           {/* 3ª useState */}
           <Data/>
+          {/* 4ª Renderização de lista */}
+          <ListRender/>
+          {/*  */}
+          <ListRenderKey/>
+          
         </div>
       </section>
 
